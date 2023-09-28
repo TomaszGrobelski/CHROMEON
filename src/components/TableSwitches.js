@@ -52,13 +52,13 @@ function TableSwitches() {
   const headTab = switchesTab.map((switchInfo) => {
     const imgDisplay = () => {
       if (switchInfo.img) {
-        return <img className="w-" src={switchInfo.img} alt="switch" />;
+        return <img className="max-w-[100px] p-3" src={switchInfo.img} alt="switch" />;
       }
       return "";
     };
 
     return (
-      <th key={switchInfo.name}>
+      <th className="" key={switchInfo.name}>
         {switchInfo.name} {imgDisplay()}
       </th>
     );
@@ -79,7 +79,7 @@ function TableSwitches() {
       <td >
         {propertiesToDisplay.map((property, index) => (
           <tr className="flex justify-center p-3 border-[1px] " key={property}>
-            <td>{switchInfo[property]}</td>
+            <td className='text-[16px]'>{switchInfo[property]}</td>
           </tr>
         ))}
       </td>
@@ -89,9 +89,13 @@ function TableSwitches() {
   return (
     <table>
       <thead className=" border-b-2 border-gray-700">
-        <tr>{headTab}</tr>
+        <tr className=" flex-row gap-1">
+          {headTab}
+        </tr>
       </thead>
-      <tbody>{bodyTab}</tbody>
+      <tbody>
+        {bodyTab}
+      </tbody>
     </table>
   );
 }

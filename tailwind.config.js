@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'gradient-45': 'linear-gradient(45deg, #f76236, #ff9171)',
+        'gradient-135': 'linear-gradient(135deg, #f76236, #ff9171)',
         'hsla-gray': 'hsla(0, 0%, 94%, 0.1)',
         
       },

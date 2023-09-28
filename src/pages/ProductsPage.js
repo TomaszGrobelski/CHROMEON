@@ -25,8 +25,8 @@ function ProductsPage() {
   ];
   return (
     <div>
-      <div className="relative mt-80">
-        <CircleBlur additionalClasses=" absolute -top-16 -right-40 lg:top-14 lg:right-0 bg-orange-500" />
+      <div className="relative mt-80 ">
+        <CircleBlur additionalClasses=" absolute -top-16 -right-40 lg:top-14 lg:right-0 bg-orange-500 " />
         <h2 className="text-white text-[30px] md:text-[45px] lg:text-[72px] flex flex-col items-center justify-center font-bold mb-20">
           Choose the best solution <span>from CHROMEON</span>{" "}
         </h2>

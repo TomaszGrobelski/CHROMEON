@@ -11,7 +11,7 @@ function Product({photo, title, description, price}) {
         <p className="text-[16px] text-gray-400">{description}</p>
         <span className="text-[24px] mt-3">${price}.00</span>
         <Button additionalClasses="gap-2 hover:text-white" title="Check!" icon={iconRight} />
-        
+
     </div>
   )
 }

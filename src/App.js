@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-black">
-      <div className="container max-w-[1300px] mx-auto px-[8%]">
+      <div className="container max-w-[1300px] mx-auto px-[8%] overflow-clip">
         <Navbar />
         <MainPage />
         <AboutPage />
