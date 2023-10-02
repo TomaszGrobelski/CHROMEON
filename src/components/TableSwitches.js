@@ -78,8 +78,8 @@ function TableSwitches() {
     return (
       <td >
         {propertiesToDisplay.map((property, index) => (
-          <tr className="flex justify-center p-3 border-[1px] " key={property}>
-            <td className='text-[16px]'>{switchInfo[property]}</td>
+          <tr className="flex justify-center p-1 border-[1px] " key={property}>
+            <td className='text-[12px] font-bold min-h-[40px] sm:text-[14px]'>{switchInfo[property]}</td>
           </tr>
         ))}
       </td>
@@ -87,13 +87,13 @@ function TableSwitches() {
   });
 
   return (
-    <table>
-      <thead className=" border-b-2 border-gray-700">
-        <tr className=" flex-row gap-1">
+    <table >
+      <thead className=" border-b-2 border-gray-700 ">
+        <tr className=" flex-row gap-1 ">
           {headTab}
         </tr>
       </thead>
-      <tbody>
+      <tbody >
         {bodyTab}
       </tbody>
     </table>

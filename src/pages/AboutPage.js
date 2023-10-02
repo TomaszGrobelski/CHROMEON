@@ -1,10 +1,10 @@
-import About from "../components/About";
-import Specification from "../components/Specification";
+import About from "../components/About/About";
+import Specification from "../components/About/Specification";
 function AboutPage() {
   return (
     <div>
-        <About />
-        <Specification />
+      <About />
+      <Specification />
     </div>
   );
 }

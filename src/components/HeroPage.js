@@ -70,8 +70,13 @@ function HeroPage() {
     };
   }, []);
 
+  // const ref= useRef(null)
+  // const handleScroll = ()=>{
+  //   ref.current?.scrollIntoView({behavior: 'smooth'})
+  // }
+
   return (
-    <div className="relative text-white mt-12 flex flex-col items-center">
+    <div className="relative text-white mt-12 flex flex-col items-center ">
       <h1 className="relative flex flex-col gap-3 tracking-[-4px] text-center font-bold text-8xl max-w-[700px]">
         <span>
           TIME TO TAKE <span className="text-orangePrimary">CONTROL</span>{" "}
@@ -99,8 +104,8 @@ function HeroPage() {
           alt="keyboard"
         />
       </figure>
-      <button className="mt-20">
-        <FaAnglesDown className="relative top-5 animate-bounce text-white text-[100px]" />
+      <button className="mt-20 mb-40">
+        <FaAnglesDown  className="relative top-5 animate-bounce text-white text-[100px]" />
       </button>
     </div>
   );
