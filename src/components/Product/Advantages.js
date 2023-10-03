@@ -26,6 +26,7 @@ function Advantages() {
         <CustomizedAccordions />
       </div>
       <SpinningWheel />
+
     </div>
   );
 }

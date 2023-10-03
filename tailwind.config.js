@@ -32,11 +32,21 @@ module.exports = {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' },
         },
+        'toLeft': {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-660%)' },
+        },
+        'toRight': {
+          '0%': { transform: 'translateX(-660%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
       },
       animation: {
         'scrollUpAnimation': 'scrollUp 4s linear infinite',
         'ease-in-out': 'ease-in-out 0.2s',
         'spin': 'spin 20s linear infinite',
+        'animateToLeft': 'toLeft 35s linear infinite',
+        'animateToRight': 'toRight 35s linear infinite',
       },
       fontFamily:{
         'league-gothic': "League Gothic",

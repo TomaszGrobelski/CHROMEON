@@ -1,8 +1,9 @@
 import HeroPage from "../components/Home/HeroPage";
 import ChromeLabel from "../components/Home/ChromeLabel";
-import AboutPage from "./AboutPage";
-import ProductsPage from "./ProductsPage";
+import AboutSection from "../components/About/AboutSection";
+import ProductSection from "../components/Product/ProductSection";
 import BigCircle from "../components/Home/BigCircle";
+import OpinionSection from "../components/Opinion/OpinionSection";
 
 function MainPage() {
   return (
@@ -12,8 +13,9 @@ function MainPage() {
         <ChromeLabel />
         <BigCircle />
       </div>
-      <AboutPage />
-      <ProductsPage />
+      <AboutSection />
+      <ProductSection />
+      <OpinionSection />      
     </div>
   );
 }
