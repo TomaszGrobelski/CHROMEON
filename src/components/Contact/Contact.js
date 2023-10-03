@@ -4,12 +4,12 @@ import { useId } from "react";
 function Contact() {
   const ID = useId();
   return (
-    <div className="bg-gradient-45 font-mono flex flex-col items-center mx-20 rounded-[15px] text-white text-lg ">
+    <div className="bg-gradient-45 font-mono flex flex-col items-center sm:mx-20 rounded-[15px] text-white text-lg ">
       <h3 className="relative -top-28 text-[50px] sm:text-[80px] md:text-[95px] m-6 flex flex-col gap-10  tracking-[-2px] font-bold">
         <span className=" text-orangeDark p-6">Contact</span>
         <span className="space-x-5">THE TEAM</span>
       </h3>
-      <p className="m-2 max-w-[520px] text-[20px] opacity-75 ">
+      <p className="m-2 max-w-[520px] text-[20px] opacity-75 font-bold ">
         Feel free to reach out to us with any inquiries, partnership opportunities, or suggestions on how we can enhance
         our products!
       </p>
