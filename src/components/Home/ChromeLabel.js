@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CircleBlur from "./CircleBlur";
+import CircleBlur from "../CircleBlur";
 
 function ChromeLabel() {
   const [isElementAtTop, setIsElementAtTop] = useState(false);
@@ -28,7 +28,7 @@ function ChromeLabel() {
   }, [isElementAtTop]);
 
   return (
-    <div className="text-white sticky top-80">
+    <div className=" z-10 text-white sticky top-80">
       <div className="flex justify-center gap-6 text-[70px] font-bold">
         <p className="element relative transition-all duration-[3000ms] ease-out" style={{ top: "1000px" }}>
           C
@@ -48,15 +48,21 @@ function ChromeLabel() {
         <p className="element relative transition-all duration-[2500ms] ease-out" style={{ top: "2000px" }}>
           E
         </p>
-        <p className="element text-orangePrimary relative transition-all duration-[3000ms] ease-out" style={{ top: "2000px" }}>
+        <p
+          className="element text-orangeDark relative transition-all duration-[3000ms] ease-out"
+          style={{ top: "2000px" }}
+        >
           O
         </p>
-        <p className="element text-orangeDark relative transition-all duration-[1500ms] ease-out" style={{ top: "20000px" }}>
+        <p
+          className="element text-orangeDark relative transition-all duration-[1500ms] ease-out"
+          style={{ top: "20000px" }}
+        >
           N
         </p>
       </div>
       <CircleBlur additionalClasses="absolute bg-orange-400 animate-pulse -top-[200px] -left-[100px]" />
-      <CircleBlur additionalClasses="absolute bg-orange-600 animate-pulse -top-[0px] -right-[100px]" />
+      <CircleBlur additionalClasses="absolute bg-orange-600 animate-pulse top-[60px] -right-[100px]" />
     </div>
   );
 }

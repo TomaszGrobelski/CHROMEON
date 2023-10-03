@@ -2,10 +2,11 @@ import redSwitch from "../images/Switches/redSwitch.jpg";
 import blueSwitch from "../images/Switches/blueSwitch.jpg";
 import brownSwitch from "../images/Switches/brownSwitch.jpg";
 
+
 function TableSwitches() {
   const switchesTab = [
     {
-      name: "NAME",
+      name: "",
       operatingForce: "OperatingForce",
       preTravel: "PreTravel",
       travelDistance: "TravelDistance",
@@ -64,7 +65,7 @@ function TableSwitches() {
     );
   });
 
-  const bodyTab = switchesTab.map((switchInfo) => {
+  const bodyTab = switchesTab.map((switchInfo, switchIndex) => {
     const propertiesToDisplay = [
       "operatingForce",
       "preTravel",
@@ -76,9 +77,10 @@ function TableSwitches() {
     ];
 
     return (
-      <td >
+      <td key={`${switchInfo.name}-td`}>
         {propertiesToDisplay.map((property, index) => (
-          <tr className="flex justify-center p-1 border-[1px] " key={property}>
+          // Unikalny klucz dla każdego elementu tr
+          <tr className="flex justify-center p-1 border-[1px]" key={`${switchInfo.name}-tr-${property}-${index}`}>
             <td className='text-[12px] font-bold min-h-[40px] sm:text-[14px]'>{switchInfo[property]}</td>
           </tr>
         ))}

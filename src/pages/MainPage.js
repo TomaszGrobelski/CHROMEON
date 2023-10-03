@@ -1,12 +1,21 @@
-import HeroPage from "../components/HeroPage"
-import ChromeLabel from '../components/ChromeLabel'
+import HeroPage from "../components/Home/HeroPage";
+import ChromeLabel from "../components/Home/ChromeLabel";
+import AboutPage from "./AboutPage";
+import ProductsPage from "./ProductsPage";
+import BigCircle from "../components/Home/BigCircle";
+
 function MainPage() {
   return (
-    <div className="bg-black h-[2000px]">
+    <div>
+      <div className="relative overflow-y-clip bg-black h-[2500px]">
         <HeroPage />
         <ChromeLabel />
+        <BigCircle />
+      </div>
+      <AboutPage />
+      <ProductsPage />
     </div>
-  )
+  );
 }
 
-export default MainPage
+export default MainPage;

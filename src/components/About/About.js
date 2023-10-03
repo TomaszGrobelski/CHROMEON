@@ -8,10 +8,10 @@ function About() {
   return (
     <div className="flex flex-col relative xl:flex-row font-league-gothic font-bold mx-4 mt-40 p-5 rounded-tl-2xl rounded-tr-2xl bg-orangePrimary bg-gradient-45 ">
       <div className="flex flex-col xl:w-3/4">
-        <h2 className=" text-[70px] mt-20 md:max-w-[430px] self-center text-center tracking-[2px] ">
+        <h2 className="text-[70px] mt-20 md:max-w-[430px] self-center text-center tracking-[2px] ">
           Get to know our product better
         </h2>
-        <p className="m-2 mt-12 text-[30px] text-gray-800 tracking-[2px] opacity-75">
+        <p className="m-2 mt-12 text-[30px] font-Montserrat text-gray-800 tracking-[2px] opacity-90">
           ChromeOn keyboards are 100% compatible with multiple operating systems. They are perfect for macOS, Windows,
           iOS and Android systems. Most ChromeOn keyboards offer plug-and-play functionality, which means you can simply
           connect the keyboard to your device via USB or Bluetooth, and it will be recognized without the need for

@@ -8,7 +8,9 @@ module.exports = {
       colors: {
         'orangePrimary': '#FB7A54',
         'orangeSecound': '#ff9171',
-        'orangeDark': '#F76236'
+        'orangeDark': '#F76236',
+        'purpleBack': '#502869',
+
       },
       backgroundImage: {
         'gradient-45': 'linear-gradient(45deg, #f76236, #ff9171)',
@@ -39,6 +41,8 @@ module.exports = {
       fontFamily:{
         'league-gothic': "League Gothic",
         'Lato' : 'Lato',
+        'Montserrat': "Montserrat",
+        'OpenSans': "Open Sans",
       }
     },
 

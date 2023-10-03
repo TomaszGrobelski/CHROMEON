@@ -1,6 +1,6 @@
-import klawiatura from "../images/klawiatura.png";
-import sideLeft from "../images/sideLeft.png";
-import Button from "./Button";
+import klawiatura from "../../images/klawiatura.png";
+import sideLeft from "../../images/sideLeft.png";
+import Button from "../Button";
 import { FaAnglesDown } from "react-icons/fa6";
 
 import { Element } from "react-scroll";
@@ -42,34 +42,36 @@ function HeroPage() {
   useEffect(() => {
     const rotatingImage = document.getElementById("rotating-image");
 
+    const handleMouseMove = (e) => {
+      const { clientX, clientY } = e;
+      const { top, left, width, height } = rotatingImage.getBoundingClientRect();
+
+      // Oblicz kąt obrotu w stopniach na podstawie pozycji kursora
+      const angleX = ((clientY - (top + height / 2)) / height) * 12;
+      const angleY = ((clientX - (left + width / 2)) / width) * 12;
+
+      // Ustaw transformację CSS
+      rotatingImage.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg)`;
+    };
+
+    const handleMouseLeave = () => {
+      // Zresetuj transformację po opuszczeniu obrazu
+      rotatingImage.style.transform = "rotateX(0deg) rotateY(0deg)";
+    };
+
     if (rotatingImage) {
-      rotatingImage.addEventListener("mousemove", (e) => {
-        const { clientX, clientY } = e;
-        const { top, left, width, height } = rotatingImage.getBoundingClientRect();
-
-        // Oblicz kąt obrotu w stopniach na podstawie pozycji kursora
-        const angleX = ((clientY - (top + height / 2)) / height) * 12;
-        const angleY = ((clientX - (left + width / 2)) / width) * 12;
-
-        // Ustaw transformację CSS
-        rotatingImage.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg)`;
-      });
-
-      rotatingImage.addEventListener("mouseleave", () => {
-        // Zresetuj transformację po opuszczeniu obrazu
-        rotatingImage.style.transform = "rotateX(0deg) rotateY(0deg)";
-      });
+      rotatingImage.addEventListener("mousemove", handleMouseMove);
+      rotatingImage.addEventListener("mouseleave", handleMouseLeave);
     }
 
     return () => {
       // Usuń nasłuchiwanie zdarzeń przy odmontowywaniu komponentu
       if (rotatingImage) {
-        rotatingImage.removeEventListener("mousemove");
-        rotatingImage.removeEventListener("mouseleave");
+        rotatingImage.removeEventListener("mousemove", handleMouseMove);
+        rotatingImage.removeEventListener("mouseleave", handleMouseLeave);
       }
     };
   }, []);
-
   // const ref= useRef(null)
   // const handleScroll = ()=>{
   //   ref.current?.scrollIntoView({behavior: 'smooth'})
@@ -105,7 +107,7 @@ function HeroPage() {
         />
       </figure>
       <button className="mt-20 mb-40">
-        <FaAnglesDown  className="relative top-5 animate-bounce text-white text-[100px]" />
+        <FaAnglesDown className="relative top-5 animate-bounce text-white text-[100px]" />
       </button>
     </div>
   );

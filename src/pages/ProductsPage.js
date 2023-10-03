@@ -1,25 +1,28 @@
-import Product from "../components/Product";
+import Product from "../components/Product/Product";
 import custom from "../images/Products/Custom.png";
 import LowProfil from "../images/Products/LowProfil.png";
 import HighProfil from "../images/Products/HighProfil.png";
 import CircleBlur from "../components/CircleBlur";
 import Switches from "../components/Switches";
 
+import Advantages from "../components/Product/Advantages";
+
 function ProductsPage() {
   const products = [
     {
       title: "Custom Keyboards",
-      description: "ten produkt to ...",
+      description:
+        "Custom keyboards are personalized input devices tailored to meet the specific preferences and needs of individual users. These keyboards are highly customizable in terms of key layout, key switches, keycaps, and even aesthetic design. Custom keyboards cater to enthusiasts and professionals who seek a unique typing experience or require specialized features for tasks such as gaming or programming. They allow users to choose from a wide range of components to create a keyboard that suits their ergonomic requirements and style preferences.",
       price: 229,
     },
     {
       title: "High-Profile Keyboards",
-      description: "ten produkt to ...",
+      description: "High-profile keyboards are characterized by their taller keycaps and a larger distance between the keys and the keyboard's base. This design offers a more prominent and tactile typing experience. High-profile key switches often have a deeper keypress feel, making them popular among typists who prefer a substantial keystroke feedback. These keyboards are commonly used by individuals who engage in extended typing sessions, such as writers and programmers, as they can reduce fatigue and provide a satisfying typing experience.",
       price: 186,
     },
     {
       title: "Low-Profile Keyboards",
-      description: "ten produkt to ...",
+      description: "Low-profile keyboards are designed with a sleek and compact form factor. They feature shorter keycaps and a reduced distance between the keys and the keyboard's base, resulting in a flatter appearance. Low-profile key switches are known for their shallower keypress and quieter operation. These keyboards are often favored by users seeking a minimalist and space-saving design, such as those with limited desk space or users on the go. Low-profile keyboards are also popular in portable devices like laptops and tablets, contributing to their slim and lightweight profile.",
       price: 199,
     },
   ];
@@ -56,6 +59,7 @@ function ProductsPage() {
           <Switches />
         </div>
       </div>
+      <Advantages />
     </div>
   );
 }
