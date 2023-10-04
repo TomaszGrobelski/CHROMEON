@@ -78,7 +78,7 @@ function HeroPage() {
   // }
 
   return (
-    <div className="relative text-white mt-12 flex flex-col items-center ">
+    <header className="relative text-white mt-12 flex flex-col items-center ">
       <h1 className="relative flex flex-col gap-3 tracking-[-4px] text-center font-bold text-8xl max-w-[700px]">
         <span>
           TIME TO TAKE <span className="text-orangePrimary">CONTROL</span>{" "}
@@ -109,7 +109,7 @@ function HeroPage() {
       <button className="mt-20 mb-40">
         <FaAnglesDown className="relative top-5 animate-bounce text-white text-[100px]" />
       </button>
-    </div>
+    </header>
   );
 }
 

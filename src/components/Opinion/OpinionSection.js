@@ -4,9 +4,12 @@ import Opinions from './Opinions'
 
 function OpinionSection() {
   return (
-    <div>
+    <div >
         <OldNewYou />
+        <div className='flex justify-center'>
         <Opinions />
+
+        </div>
     </div>
   )
 }

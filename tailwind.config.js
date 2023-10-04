@@ -10,12 +10,16 @@ module.exports = {
         'orangeSecound': '#ff9171',
         'orangeDark': '#F76236',
         'purpleBack': '#502869',
+        'grayFooter': '#171717',
+        'facebook': '#4267B2',
+        'twitter': '#1DA1F2',
 
       },
       backgroundImage: {
         'gradient-45': 'linear-gradient(45deg, #f76236, #ff9171)',
         'gradient-135': 'linear-gradient(135deg, #f76236, #ff9171)',
         'hsla-gray': 'hsla(0, 0%, 94%, 0.1)',
+        'instagram': 'conic-gradient(#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#FCAF45,#FFDC80,#405DE6,#5B51D8)',
         
       },
       keyframes: {

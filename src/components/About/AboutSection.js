@@ -2,10 +2,10 @@ import About from "./About";
 import Specification from "./Specification";
 function AboutSection() {
   return (
-    <div>
+    <section>
       <About />
       <Specification />
-    </div>
+    </section>
   );
 }
 
