@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CHROMEON/static/css/main.2df18321.css",
-    "main.js": "/CHROMEON/static/js/main.f97a9e21.js",
+    "main.css": "/CHROMEON/static/css/main.ab04a9c8.css",
+    "main.js": "/CHROMEON/static/js/main.d46927f4.js",
     "static/media/WinMac.png": "/CHROMEON/static/media/WinMac.99e5e040dce6367fd920.png",
     "static/media/LowProfil.png": "/CHROMEON/static/media/LowProfil.5cec166420947c12c9b7.png",
     "static/media/HighProfil.png": "/CHROMEON/static/media/HighProfil.f50fbe39dc9af7d04360.png",
@@ -21,11 +21,11 @@
     "static/media/league-gothic-vietnamese-400-normal.woff": "/CHROMEON/static/media/league-gothic-vietnamese-400-normal.c39a3af436a0a00b6342.woff",
     "static/media/league-gothic-vietnamese-400-normal.woff2": "/CHROMEON/static/media/league-gothic-vietnamese-400-normal.ed13b8224acb379cedc6.woff2",
     "index.html": "/CHROMEON/index.html",
-    "main.2df18321.css.map": "/CHROMEON/static/css/main.2df18321.css.map",
-    "main.f97a9e21.js.map": "/CHROMEON/static/js/main.f97a9e21.js.map"
+    "main.ab04a9c8.css.map": "/CHROMEON/static/css/main.ab04a9c8.css.map",
+    "main.d46927f4.js.map": "/CHROMEON/static/js/main.d46927f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2df18321.css",
-    "static/js/main.f97a9e21.js"
+    "static/css/main.ab04a9c8.css",
+    "static/js/main.d46927f4.js"
   ]
 }
