@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CHROMEON/static/css/main.45481835.css",
-    "main.js": "/CHROMEON/static/js/main.d98937a9.js",
+    "main.js": "/CHROMEON/static/js/main.2e2f13b9.js",
     "static/media/WinMac.png": "/CHROMEON/static/media/WinMac.99e5e040dce6367fd920.png",
     "static/media/LowProfil.png": "/CHROMEON/static/media/LowProfil.5cec166420947c12c9b7.png",
     "static/media/key4.png": "/CHROMEON/static/media/key4.1a18319ff2c9c40b5864.png",
@@ -30,10 +30,10 @@
     "static/media/league-gothic-vietnamese-400-normal.woff2": "/CHROMEON/static/media/league-gothic-vietnamese-400-normal.ed13b8224acb379cedc6.woff2",
     "index.html": "/CHROMEON/index.html",
     "main.45481835.css.map": "/CHROMEON/static/css/main.45481835.css.map",
-    "main.d98937a9.js.map": "/CHROMEON/static/js/main.d98937a9.js.map"
+    "main.2e2f13b9.js.map": "/CHROMEON/static/js/main.2e2f13b9.js.map"
   },
   "entrypoints": [
     "static/css/main.45481835.css",
-    "static/js/main.d98937a9.js"
+    "static/js/main.2e2f13b9.js"
   ]
 }
