@@ -4,6 +4,8 @@ import AboutSection from "../components/About/AboutSection";
 import ProductSection from "../components/Product/ProductSection";
 import BigCircle from "../components/Home/BigCircle";
 import OpinionSection from "../components/Opinion/OpinionSection";
+import PhotosSection from "../components/Photos/PhotosSection";
+import NewsletterSection from "../components/Newsletter/NewsletterSection";
 
 function MainPage() {
   return (
@@ -13,9 +15,11 @@ function MainPage() {
         <ChromeLabel />
         <BigCircle />
       </div>
+      <PhotosSection />
       <AboutSection />
       <ProductSection />
-      <OpinionSection />      
+      <OpinionSection />   
+      <NewsletterSection />
     </div>
   );
 }

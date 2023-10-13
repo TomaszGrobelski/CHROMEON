@@ -19,9 +19,9 @@ function Footer() {
             </ul>
           </div>
           <div className="flex gap-8 text-[60px] lg:flex-col ">
-            <BsInstagram className=" bg-instagram bg-white rounded-[20px] cursor-pointer " />
-            <BsFacebook className=" bg-facebook rounded-[30px] cursor-pointer" />
-            <AiOutlineTwitter className="text-twitter bg-white rounded-[30px] cursor-pointer" />
+            <BsInstagram className=" bg-instagram bg-white rounded-[20px] cursor-pointer hover:scale-110 " />
+            <BsFacebook className=" bg-facebook rounded-[30px] cursor-pointer hover:scale-110" />
+            <AiOutlineTwitter className="text-twitter bg-white rounded-[30px] cursor-pointer hover:scale-110" />
           </div>
         </div>
       </div>

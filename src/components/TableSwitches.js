@@ -1,9 +1,10 @@
 import redSwitch from "../images/Switches/redSwitch.jpg";
 import blueSwitch from "../images/Switches/blueSwitch.jpg";
 import brownSwitch from "../images/Switches/brownSwitch.jpg";
-
+import AOS from "../hooks/AOS";
 
 function TableSwitches() {
+  AOS();
   const switchesTab = [
     {
       name: "",
@@ -81,7 +82,7 @@ function TableSwitches() {
         {propertiesToDisplay.map((property, index) => (
           // Unikalny klucz dla każdego elementu tr
           <tr className="flex justify-center p-1 border-[1px]" key={`${switchInfo.name}-tr-${property}-${index}`}>
-            <td className='text-[12px] font-bold min-h-[40px] sm:text-[14px]'>{switchInfo[property]}</td>
+            <td className="text-[12px] font-bold min-h-[40px] sm:text-[14px]">{switchInfo[property]}</td>
           </tr>
         ))}
       </td>
@@ -89,15 +90,11 @@ function TableSwitches() {
   });
 
   return (
-    <table >
+    <table className="bg-white text-black rounded-md" data-aos="fade-left" data-aos-duration="1500">
       <thead className=" border-b-2 border-gray-700 ">
-        <tr className=" flex-row gap-1 ">
-          {headTab}
-        </tr>
+        <tr className=" flex-row gap-1 ">{headTab}</tr>
       </thead>
-      <tbody >
-        {bodyTab}
-      </tbody>
+      <tbody>{bodyTab}</tbody>
     </table>
   );
 }

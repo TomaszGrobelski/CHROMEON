@@ -1,11 +1,22 @@
 import TableSwitches from "./TableSwitches";
-
+import AOS from "../hooks/AOS";
 function Switches() {
+  AOS();
   return (
-    <div className=" flex flex-col lg:flex-row items-center justify-center p-6 bg-white rounded-3xl">
-      <div className="p-4">
-        <h2 className="text-[50px] sm:text-[65px] md:text-[75px] font-bold text-center">BEST SWITCHES</h2>
-        <p className="mx-1 sm:mx-4 my-10 max-w-[600px] text-[22px] font-Lato text-gray-800 font-semibold">
+    <div className=" flex flex-col mb-60 gap-10 lg:flex-row justify-center text-white rounded-3xl">
+      <div className="">
+        <h2
+          className="flex gap-3 text-[50px] sm:text-[60px] font-league-gothic font-bold "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          BEST <span className="text-orangePrimary">SWITCHES</span>
+        </h2>
+        <p
+          className="mx-1 my-10 max-w-[600px] text-[22px] text-justify font-Lato  font-semibold"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           The CHROMEON keyboard is designed to suit your dedicated typing style. No matter what you like, linear, clicky
           or something in between, we have three Gateron G Pro switch options for you:{" "}
           <span className="text-red-500">Red</span>, <span className="text-blue-500">Blue</span>,{" "}
@@ -13,7 +24,7 @@ function Switches() {
           that every keystroke has the same effect.
         </p>
       </div>
-      <TableSwitches />
+      <TableSwitches  />
     </div>
   );
 }

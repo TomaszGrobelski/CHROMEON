@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="bg-black">
-        <div className="container max-w-[1300px] mx-auto px-[8%] overflow-clip">
+        <div className="container max-w-[1300px] mx-auto px-[8%] overflow-x-clip ">
           <Navbar />
           <Routes>
             <Route path="/" element={<MainPage />} />

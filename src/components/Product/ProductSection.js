@@ -4,10 +4,11 @@ import LowProfil from "../../images/Products/LowProfil.png";
 import HighProfil from "../../images/Products/HighProfil.png";
 import CircleBlur from "../CircleBlur";
 import Switches from "../Switches";
-
 import Advantages from "./Advantages";
+import AOS from "../../hooks/AOS";
 
 function ProductSection() {
+  AOS();
   const products = [
     {
       title: "Custom Keyboards",
@@ -32,8 +33,13 @@ function ProductSection() {
     <div>
       <div className="relative mt-80 ">
         <CircleBlur additionalClasses=" absolute -top-16 -right-40 lg:top-14 lg:right-0 bg-orange-500 " />
-        <h2 className="text-white text-[30px] md:text-[45px] lg:text-[72px] flex flex-col items-center justify-center font-bold mb-20">
-          Choose the best solution <span>from CHROMEON</span>{" "}
+        <h2
+          className="flex flex-col text-white font-league-gothic text-[50px] md:text-[65px] lg:text-[72px] items-center justify-center font-bold mb-20"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <span className="text-center">CHOOSE THE BEST SOLUTION</span>{" "}
+          <span className="text-center text-orangeSecound">FROM CHROMEON</span>{""}
         </h2>
         <div className="grid gap-10 lg:grid-cols-3 lg:gap-4 ">
           <Product

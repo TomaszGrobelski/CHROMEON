@@ -27,7 +27,7 @@ function Opinions() {
         </div>
         <div className="flex flex-col gap-4">
           <PatternOption
-            className="max-w-[200px] relative md:bottom-[170px]"
+            className="relative top-[200px] md:top-[-140px]  max-w-[200px] md:bottom-[170px]"
             title="Seamless Connectivity"
             description="Switch between your computer, tablet, and smartphone with ease, and experience a consistent and efficient typing experience no matter where you are. Stay connected and stay productive."
             person="Olivia Parker"
