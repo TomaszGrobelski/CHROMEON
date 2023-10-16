@@ -10,7 +10,7 @@ function Opinions() {
 
   return (
     <div className="relative pb-[400px] ">
-      <div className="relative top-[1000px] flex gap-4 w-full">
+      <div className="relative top-[1000px] flex gap-2 w-full">
         <div className="flex flex-col gap-4">
           <PatternOption
             className="max-w-[200px] relative opacity-0 md:opacity-100"
@@ -27,13 +27,13 @@ function Opinions() {
         </div>
         <div className="flex flex-col gap-4">
           <PatternOption
-            className="relative top-[200px] md:top-[-140px]  max-w-[200px] md:bottom-[170px]"
+            className="relative top-[200px] left-1/2 md:left-0 max-w-[200px] md:top-[-140px]   md:bottom-[170px]"
             title="Seamless Connectivity"
             description="Switch between your computer, tablet, and smartphone with ease, and experience a consistent and efficient typing experience no matter where you are. Stay connected and stay productive."
             person="Olivia Parker"
           />
           <PatternOption
-            className="max-w-[200px] w-[300px] md:w-[200px]  relative top-[650px] md:top-[500px] lg:top-[300px]"
+            className="relative left-[120px] md:left-0 max-w-[200px] w-[300px] md:w-[200px]  top-[650px] md:top-[650px] lg:top-[300px]"
             title="Unmatched Comfort"
             description="Our keyboard is the perfect marriage of cutting-edge innovation and reliable functionality. It seamlessly integrates advanced technology to enhance your typing experience while offering the dependable performance you need. Rediscover the joy of typing with our keyboard."
             person="Liam Mitchell"
@@ -41,13 +41,13 @@ function Opinions() {
         </div>
         <div className="flex flex-col gap-4 relative bottom-[200px]">
           <PatternOption
-            className="max-w-[200px] relative bottom-[100px]"
+            className="relative w-[220px]  right-1/2 max-w-[300px] md:right-0  md:bottom-[100px]"
             title="Precision at Your Fingertips"
             description="Long typing sessions have never been this comfortable. Our keyboard's ergonomic design and soft-touch keys provide a typing experience like no other. Whether you're working late into the night or crafting a masterpiece, you'll appreciate the comfort and support our keyboard offers. Each keystroke is met with accuracy, ensuring that your words flow effortlessly onto the screen. "
             person="Sophia Carter"
           />
           <PatternOption
-            className="max-w-[200px] relative top-[450px] md:top-[450px] lg:top-[300px]"
+            className="relative right-[88px] md:right-0 max-w-[200px] top-[1150px] md:top-[850px] lg:top-[400px]"
             title="Experience Silent Typing"
             description="Experience typing like never before with our keyboard's precision-engineered keys. "
             person="Noah Evans"

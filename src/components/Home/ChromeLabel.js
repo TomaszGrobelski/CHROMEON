@@ -38,18 +38,18 @@ function ChromeLabel() {
       >
         YOUR
       </motion.p>
-      <div className="flex justify-center font-bold gap-10 text-[60px] tracking-[-40px]">
-        <motion.div
-          className="text-[60px] whitespace-nowrap"
-          initial={{x: -150,scale: 3 }}
+      <div className="flex justify-center font-bold gap-9 sm:gap-10 text-[50px] tracking-[-40px]">
+        <motion.p
+          className="relative "
+          initial={{x: 220,scale: 2 }}
           whileInView={{x: 0,scale: 1 }}
           transition={{duration: 2,  delay: 0.6  }}
         >
           C
-        </motion.div>
+        </motion.p>
         <motion.p
-          className="relative block "
-          initial={{ x: -140, scale: 3 }}
+          className="relative"
+          initial={{ x: 170, scale: 2 }}
           whileInView={{ x: 0, scale: 1 }}
           transition={{ duration: 2, delay: 0.5 }}
           
@@ -57,8 +57,8 @@ function ChromeLabel() {
           H
         </motion.p>
         <motion.p
-          className="relative z-10 "
-          initial={{ X: -130, scale: 3 }}
+          className="relative"
+          initial={{ X: 120, scale: 3 }}
           whileInView={{ X: 0, scale: 1 }}
           transition={{ duration: 2 }}
         >
@@ -66,7 +66,7 @@ function ChromeLabel() {
         </motion.p>
         <motion.p
           className="relative "
-          initial={{ x: 130, scale: 3 }}
+          initial={{ x: -100, scale: 3 }}
           whileInView={{ x:0, scale: 1 }}
           transition={{ duration: 2 }}
         >
@@ -74,7 +74,7 @@ function ChromeLabel() {
         </motion.p>
         <motion.p
           className="relative "
-          initial={{ x: 140, scale: 3 }}
+          initial={{ x: -150, scale: 3 }}
           whileInView={{ x: 0, scale: 1 }}
           transition={{ duration: 2, delay: 0.5 }}
         >
@@ -82,7 +82,7 @@ function ChromeLabel() {
         </motion.p>
         <motion.p
           className="relative "
-          initial={{ x: 150, scale: 3 }}
+          initial={{ x: -200, scale: 3 }}
           whileInView={{ x: 0, scale: 1 }}
           transition={{ duration: 2, delay: 1 }}
         >
@@ -90,7 +90,7 @@ function ChromeLabel() {
         </motion.p>
         <motion.p
           className=" text-orangeDark relative  "
-          initial={{ X: 130, opacity: 0 }}
+          initial={{ X: 100, opacity: 0 }}
           whileInView={{ X: 0, opacity: 1 }}
           transition={{ duration: 2, delay: 2 }}
         >
@@ -98,8 +98,8 @@ function ChromeLabel() {
         </motion.p>
         <motion.p
           className=" text-orangeDark relative  "
-          initial={{ x: 140, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           transition={{ duration: 2, delay: 2 }}
         >
           N

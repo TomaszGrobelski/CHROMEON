@@ -13,6 +13,7 @@ function SpinningWheel() {
     >
       <img
         className="max-w-[350px]  lg:relative -lg:left-3 lg:-top-[350px] animate-spin"
+        loading="lazy"
         src={Wheel}
         alt="SpinningWheel"
       />

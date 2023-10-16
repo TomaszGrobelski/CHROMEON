@@ -16,7 +16,7 @@ function Advantages() {
           >
             WHY <span className=" text-orangeDark"> CHROMEON?</span>
           </h2>
-          <p className="text-[34px] font-bold my-4 tracking-[2px]" data-aos="fade-up" data-aos-duration="1000">
+          <p className=" text-[18px] sm:text-[34px] text-justify sm:text-left font-bold my-4 tracking-[2px]" data-aos="fade-up" data-aos-duration="1000">
             The benefits of using our keyboards as a tool for personal development are endless.
           </p>
           <p

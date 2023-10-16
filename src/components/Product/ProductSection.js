@@ -32,7 +32,7 @@ function ProductSection() {
   return (
     <div>
       <div className="relative mt-80 ">
-        <CircleBlur additionalClasses=" absolute -top-16 -right-40 lg:top-14 lg:right-0 bg-orange-500 " />
+        <CircleBlur additionalClasses=" absolute left-[140px] -top-[100px] md:left-[800px] lg:top-14  bg-orange-500 " />
         <h2
           className="flex flex-col text-white font-league-gothic text-[50px] md:text-[65px] lg:text-[72px] items-center justify-center font-bold mb-20"
           data-aos="fade-up"

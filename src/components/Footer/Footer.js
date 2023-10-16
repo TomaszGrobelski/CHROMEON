@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="w-full pt-[80px]  text-white bg-grayFooter">
       <div className=" lg:flex lg:justify-center lg:gap-20  ">
-        <img className="max-w-[500px] lg:max-h-[150px] p-4 " src={Logo} alt="Logo" />
+        <img className=" aspect-[3.08] min-w-[280px] max-w-[500px] m-4" width="1000" height="325" loading="lazy" src={Logo} alt="Logo" />
         <div className="flex flex-col gap-10 p-4 lg:flex-row lg:gap-[150px] lg:mx-10 lg:justify-center">
           <div>
             <p className="text-[25px] font-bold mb-4">Explore</p>
@@ -25,8 +25,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className=" border-t-[1px] text-stone-400">
-        <p className="w-full p-4 text-center">2023 CHROMEON | All Rights Reserved</p>
+      <div className="flex justify-between border-t-[1px] text-stone-400 ">
+        <p className="w-full p-4 text-center">2023 © CHROMEON | All Rights Reserved</p>
+        <p className="w-full p-4 text-center">Designed by <a href="https://github.com/TomaszGrobelski" >Tomasz Grobelski</a> </p>
+        
       </div>
     </div>
   );

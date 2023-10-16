@@ -37,7 +37,7 @@ function CustomizedAccordions() {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          + ERGONOMIC SUPPORT
+          + ERGONOMIC
         </div>
         {visible[1] ? (
           <p className=" pb-[90px] text-stone-400 text-[18px]">
@@ -52,7 +52,7 @@ function CustomizedAccordions() {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          + REDESGINED STABILIZERS
+          + STABILIZERS
         </div>
         {visible[2] ? (
           <p className=" pb-[90px] text-stone-400 text-[18px]">

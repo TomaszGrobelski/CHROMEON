@@ -16,7 +16,7 @@ function NewsletterSection() {
         <span className="text-black">WITH US</span>
       </h2>
       <p
-        class="p-2 mt-12 font-OpenSans my-8 text-[20px] text-justify mx-12 "
+        className="p-2 mt-12 font-OpenSans my-8 text-[20px] text-justify mx-12 "
         data-aos="fade-up"
         data-aos-duration="3000"
       >
@@ -26,7 +26,7 @@ function NewsletterSection() {
       </p>
       <form className="flex flex-col gap-4 sm:flex-row items-center" action="">
         <input
-          class="min-w-[200px] h-[40px] rounded-xl outline-none text-black px-4 text-[20px] placeholder:text-gray-400"
+          className="min-w-[200px] h-[40px] rounded-xl outline-none text-black px-4 text-[20px] placeholder:text-gray-400"
           placeholder="E-mail"
           type="text"
           data-aos="fade-right"

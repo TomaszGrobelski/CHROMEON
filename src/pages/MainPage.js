@@ -1,5 +1,5 @@
 import HeroPage from "../components/Home/HeroPage";
-import ChromeLabel from "../components/Home/ChromeLabel";
+
 import AboutSection from "../components/About/AboutSection";
 import ProductSection from "../components/Product/ProductSection";
 import BigCircle from "../components/Home/BigCircle";
@@ -12,7 +12,6 @@ function MainPage() {
     <div>
       <div className="relative overflow-y-clip bg-black h-[2500px]">
         <HeroPage />
-        <ChromeLabel />
         <BigCircle />
       </div>
       <PhotosSection />

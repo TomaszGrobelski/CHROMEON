@@ -1,4 +1,5 @@
-import klawiatura from "../../images/klawiatura.png";
+
+import klawiaturaHome from '../../images/klawiaturaHome.png'
 import sideLeft from "../../images/sideLeft.png";
 import Button from "../Button";
 import { FaAnglesDown } from "react-icons/fa6";
@@ -44,7 +45,7 @@ function HeroPage() {
       initial="initial"
       animate="animate"
     >
-      <motion.h1 className="relative flex flex-col gap-3 tracking-[-4px] text-center font-bold text-8xl max-w-[700px]">
+      <motion.h1 className="relative flex flex-col gap-3 tracking-[-4px] text-center font-bold text-6xl sm:text-8xl max-w-[700px]">
         <span>
           TIME TO TAKE <span className="text-orangePrimary">CONTROL</span>{" "}
         </span>
@@ -59,7 +60,10 @@ function HeroPage() {
           transition={{ duration: 6, repeat: Infinity, repeatType: "loop", ease:"linear" }}
         >
           <img
-            className="absolute max-w-[200px] h-[300px] left-[-120px] -top-[80px] rounded-lg opacity-40 shadow-md shadow-white "
+            className="absolute w-[240px] max-w-[344px] max-h-[434px] left-[-120px] -top-[80px] rounded-lg opacity-40 shadow-md shadow-white "
+            loading="lazy"
+            width="344px"
+            height="434px"
             src={sideLeft}
             alt="keyboard-left"
             ref={keyboardRef}
@@ -73,16 +77,16 @@ function HeroPage() {
       <motion.div whileHover={{ scale: 1.05, rotate: "-2.5deg" }} whileTap={{ scale: 0.95, rotate: "5deg" }}>
         <Button title="Buy Now" />
       </motion.div>
-      <figure id="rotating-image" className="perspective-[1500px]">
+      <figure id="rotating-image" className="mt-10 rounded-sm">
         <img
-          className="transition duration-75"
-          // transition duration-300 rounded-md rotate-x-12 rotate-y-12 hover:rotate-x-0 hover:rotate-y-0
-          //id="rotating-image"
-          src={klawiatura}
+          className="transition duration-75 rounded-sm "
+          width="975" height="362"
+          loading="lazy"
+          src={klawiaturaHome}
           alt="keyboard"
         />
       </figure>
-      <button onClick={handleClick} className="mt-20 mb-40">
+      <button aria-label="Scroll to section About" onClick={handleClick} className="mt-20 mb-40">
         <FaAnglesDown className="relative top-5 animate-bounce text-white text-[100px]" />
       </button>
     </motion.header>

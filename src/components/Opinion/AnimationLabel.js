@@ -10,10 +10,10 @@ function AnimationLabel() {
       transition={{ duration: 0.6, delay: 0.4 }}
     >
       <div className="flex flex-col items-center gap-4">
-        <h2 className="flex flex-col text-[50px] text-center font-bold tracking-[2px] whitespace-nowrap">
+        <h2 className="flex flex-col text-[40px] sm:text-[50px] text-center font-bold tracking-[2px] whitespace-nowrap">
           THOUSANDS OF PEOPLE <span className="text-orangeDark">TRUST OUR KEYBOARDS</span>
         </h2>
-        <p className="flex flex-col text-[20px] tracking-[2px] text-center whitespace-nowrap">
+        <p className="flex flex-col text-[12px] sm:text-[20px] tracking-[2px] text-center whitespace-nowrap">
           JOIN THE GROUP OF PEOPLE WHO HAVE REACHED A HIGHER LEVEL{" "}
           <span>AND ARE SATISFIED WITH THE QUALITY OF OUR PRODUCTS</span>{" "}
         </p>

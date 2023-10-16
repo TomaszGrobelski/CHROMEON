@@ -9,17 +9,17 @@ import AOS from '../../hooks/AOS'
 function About() {
   AOS()
   return (
-    <div className="flex flex-col relative xl:flex-row font-league-gothic font-bold mx-4 mt-40 p-5 rounded-tl-2xl rounded-tr-2xl ">
+    <div className="flex flex-col relative xl:flex-row font-league-gothic font-bold mx-4 mt-40 sm:p-5 rounded-tl-2xl rounded-tr-2xl ">
       <div className="flex flex-col xl:w-1/2">
         <h2
-          class="text-[45px] whitespace-nowrap sm:text-[70px] text-white mt-20 md:max-w-[430px] -tracking-[1px] aos-init aos-animate"
+          className="text-[40px] whitespace-nowrap sm:text-[70px] text-white mt-20 md:max-w-[430px] -tracking-[1px] aos-init aos-animate"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <span class=" text-orangeDark">LVL UP</span> YOUR HARDWARE
+          <span className=" text-orangeDark">LVL UP</span> YOUR HARDWARE
         </h2>
         <p
-          class=" mt-12 text-[16px] sm:text-[25px] text-justify font-Montserrat text-white tracking-[2px] opacity-90"
+          className=" mt-12 text-[16px] sm:text-[25px] text-justify font-Montserrat text-white tracking-[2px] opacity-90"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
@@ -43,6 +43,7 @@ function About() {
         <img
           className="mt-8 w-[90%] max-w-[400px] shadow-lg shadow-gray-600 rounded-lg xl:w-full"
           src={WinMac}
+          loading="lazy"
           alt="Windows-Android Switch"
           data-aos="zoom-in-up"
           data-aos-duration="600"
