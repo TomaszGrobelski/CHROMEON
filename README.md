@@ -3,8 +3,6 @@
 
 # CHROMEON - Sklep internetowy z klawiaturami
 
-![CHROMEON Logo](link_do_logo.png)
-
 CHROMEON to sklep internetowy specjalizujący się w sprzedaży wysokiej jakości klawiatur do komputerów. Nasza misja polega na dostarczaniu produktów, które nie tylko poprawią wydajność, ale także poprawią doświadczenie użytkownika.
 
 ## O projekcie
