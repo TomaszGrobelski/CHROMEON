@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="w-full pt-[80px]  text-white bg-grayFooter">
       <div className=" lg:flex lg:justify-center lg:gap-20  ">
-        <img className=" aspect-[3.08] min-w-[280px] max-w-[500px] m-4" width="1000" height="325" loading="lazy" src={Logo} alt="Logo" />
+        <img className=" aspect-[3.08]  w-[280px] md:w-[400px] max-w-[500px] m-4" width="1000" height="325" loading="lazy" src={Logo} alt="Logo" />
         <div className="flex flex-col gap-10 p-4 lg:flex-row lg:gap-[150px] lg:mx-10 lg:justify-center">
           <div>
             <p className="text-[25px] font-bold mb-4">Explore</p>

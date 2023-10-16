@@ -12,8 +12,8 @@ function App() {
         <div className="container max-w-[1300px] mx-auto px-[8%] overflow-x-clip ">
           <Navbar />
           <Routes>
-            <Route path="/CHROMEON" element={<MainPage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/CHROMEON/" element={<MainPage />} />
+            <Route path="/contact/" element={<ContactPage />} />
           </Routes>
         </div>
         <Footer />

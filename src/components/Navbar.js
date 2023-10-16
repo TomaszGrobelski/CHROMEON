@@ -8,7 +8,7 @@ function Navbar() {
   const [isHome, setIsHome] = useState(true);
 
   useEffect(() => {
-    if (location.pathname === "/CHROMEON") {
+    if (location.pathname === "/CHROMEON/") {
       setIsHome(true);
     } else {
       setIsHome(false);
@@ -52,7 +52,7 @@ function Navbar() {
       <nav>
         <ul className="flex text-[12px] sm:text-[16px] gap-2 sm:gap-4 font-bold items-center ">
           <li>
-            <Link to="/CHROMEON" aria-label="Change page to Home Page">
+            <Link to="/CHROMEON/" aria-label="Change page to Home Page">
               HOME
             </Link>
           </li>
@@ -71,7 +71,7 @@ function Navbar() {
             </>
           ) : null}
           <li>
-            <Link to="/contact" aria-label="Change page on contact Page">
+            <Link to="/contact/" aria-label="Change page on contact Page">
               <button className="bg-gradient-45 rounded-lg p-1 sm:p-3  sm:text-lg">Contact</button>
             </Link>
           </li>
