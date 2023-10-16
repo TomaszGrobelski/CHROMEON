@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/CHROMEON/static/css/main.dc2f9b13.css",
-    "main.js": "/CHROMEON/static/js/main.db4e69f7.js",
-    "static/media/WinMac.png": "/CHROMEON/static/media/WinMac.99e5e040dce6367fd920.png",
-    "static/media/LowProfil.png": "/CHROMEON/static/media/LowProfil.5cec166420947c12c9b7.png",
+    "main.css": "/CHROMEON/static/css/main.11235e70.css",
+    "main.js": "/CHROMEON/static/js/main.25ada9b3.js",
     "static/media/key4.png": "/CHROMEON/static/media/key4.1a18319ff2c9c40b5864.png",
+    "static/media/klawiaturaHome.png": "/CHROMEON/static/media/klawiaturaHome.1413fe4ba4eb34b8f23a.png",
     "static/media/HighProfil.png": "/CHROMEON/static/media/HighProfil.f50fbe39dc9af7d04360.png",
     "static/media/key7.png": "/CHROMEON/static/media/key7.87f9a2e170cea02ba315.png",
     "static/media/key3.png": "/CHROMEON/static/media/key3.a9c521285ab2d5b63e4d.png",
@@ -12,11 +11,13 @@
     "static/media/key6.png": "/CHROMEON/static/media/key6.808156eedb82810ab0f0.png",
     "static/media/key2.png": "/CHROMEON/static/media/key2.e1a9941307b60d38b7fb.png",
     "static/media/Custom.png": "/CHROMEON/static/media/Custom.4f66a9e8b9a5759b6d4c.png",
+    "static/media/LowProfil.png": "/CHROMEON/static/media/LowProfil.2a5ba47d9f55152b8851.png",
     "static/media/key5.png": "/CHROMEON/static/media/key5.391a3f88b8c77c3bae9a.png",
     "static/media/BluetoothC.png": "/CHROMEON/static/media/BluetoothC.25a159b9c1943df41e2d.png",
-    "static/media/klawiatura.png": "/CHROMEON/static/media/klawiatura.f67e6059631a8ebe2f94.png",
+    "static/media/BIG.jpg": "/CHROMEON/static/media/BIG.2baf9a55e85662e2fd70.jpg",
     "static/media/key8.png": "/CHROMEON/static/media/key8.3a025efc3cddeff2228f.png",
     "static/media/key1.png": "/CHROMEON/static/media/key1.df5612cea9ac1725a05a.png",
+    "static/media/WinMac.png": "/CHROMEON/static/media/WinMac.c1704f56342f7851032e.png",
     "static/media/brownSwitch.jpg": "/CHROMEON/static/media/brownSwitch.6db1cf4c552e3e16bdab.jpg",
     "static/media/redSwitch.jpg": "/CHROMEON/static/media/redSwitch.ad4cca41250bcbe4cb9f.jpg",
     "static/media/Wheel.png": "/CHROMEON/static/media/Wheel.ad6a5e727ee631ba2308.png",
@@ -29,11 +30,11 @@
     "static/media/league-gothic-vietnamese-400-normal.woff": "/CHROMEON/static/media/league-gothic-vietnamese-400-normal.c39a3af436a0a00b6342.woff",
     "static/media/league-gothic-vietnamese-400-normal.woff2": "/CHROMEON/static/media/league-gothic-vietnamese-400-normal.ed13b8224acb379cedc6.woff2",
     "index.html": "/CHROMEON/index.html",
-    "main.dc2f9b13.css.map": "/CHROMEON/static/css/main.dc2f9b13.css.map",
-    "main.db4e69f7.js.map": "/CHROMEON/static/js/main.db4e69f7.js.map"
+    "main.11235e70.css.map": "/CHROMEON/static/css/main.11235e70.css.map",
+    "main.25ada9b3.js.map": "/CHROMEON/static/js/main.25ada9b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc2f9b13.css",
-    "static/js/main.db4e69f7.js"
+    "static/css/main.11235e70.css",
+    "static/js/main.25ada9b3.js"
   ]
 }
