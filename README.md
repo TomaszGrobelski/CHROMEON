@@ -32,4 +32,5 @@ Aby zainstalować i uruchomić ten projekt lokalnie, wykonaj następujące kroki
 
 - Tomasz Grobelski - [GitHub]([link_do_profilu](https://github.com/TomaszGrobelski))
 
-## DEMO
+## Demo
+[Demo strony BodyForgeGym](https://tomaszgrobelski.github.io/CHROMEON/)
