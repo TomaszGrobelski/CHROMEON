@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import AOS from "../../hooks/AOS";
+
 
 function CustomizedAccordions() {
-  AOS()
+  
   const [visible, setVisible] = useState([false, false, false, false, false]);
 
   const handleClick = (index) => {

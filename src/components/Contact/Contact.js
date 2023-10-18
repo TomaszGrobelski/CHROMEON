@@ -5,7 +5,7 @@ import { useId } from "react";
 function Contact() {
   const ID = useId();
   return (
-    <div className="bg-gradient-45 font-mono flex flex-col items-center sm:mx-20 rounded-[15px] text-white text-lg ">
+    <div className="bg-gradient-45 font-mono  flex flex-col items-center sm:mx-20 rounded-[15px] text-white text-lg ">
       <h3 className="relative -top-28 text-[50px] sm:text-[80px] md:text-[95px] m-6 flex flex-col gap-10  tracking-[-2px] font-bold">
         <span className=" text-orangeDark text-center p-6 tracking-[1px]">CONTACT</span>
         <span className="space-x-5 text-center">THE TEAM</span>

@@ -9,7 +9,7 @@ function Opinions() {
 
 
   return (
-    <div className="relative pb-[400px] ">
+    <div className="relative pb-[450px] md:pb-32 ">
       <div className="relative top-[1000px] flex gap-2 w-full">
         <div className="flex flex-col gap-4">
           <PatternOption

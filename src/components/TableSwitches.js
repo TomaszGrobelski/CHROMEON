@@ -1,10 +1,10 @@
 import redSwitch from "../images/Switches/redSwitch.jpg";
 import blueSwitch from "../images/Switches/blueSwitch.jpg";
 import brownSwitch from "../images/Switches/brownSwitch.jpg";
-import AOS from "../hooks/AOS";
+
 
 function TableSwitches() {
-  AOS();
+  
   const switchesTab = [
     {
       name: "",

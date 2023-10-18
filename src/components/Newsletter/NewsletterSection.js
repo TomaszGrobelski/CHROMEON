@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "../Button";
 import { motion } from "framer-motion";
-import AOS from "../../hooks/AOS";
+
 
 function NewsletterSection() {
-  AOS();
+  
   return (
-    <div className="relative flex flex-col items-center text-white mt-[200px] md:mt-[400px] py-10 bg-orangePrimary">
+    <div className="relative flex flex-col items-center text-white md:mt-[400px] py-10 bg-orangePrimary">
       <h2
         className="absolute -top-[90px] flex flex-col font-bold items-center font-league-gothic text-[60px]"
         data-aos="fade-up"

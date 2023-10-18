@@ -5,10 +5,10 @@ import HighProfil from "../../images/Products/HighProfil.png";
 import CircleBlur from "../CircleBlur";
 import Switches from "../Switches";
 import Advantages from "./Advantages";
-import AOS from "../../hooks/AOS";
+
 
 function ProductSection() {
-  AOS();
+  
   const products = [
     {
       title: "Custom Keyboards",

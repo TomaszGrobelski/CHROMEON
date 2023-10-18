@@ -1,9 +1,9 @@
 import TableSwitches from "./TableSwitches";
-import AOS from "../hooks/AOS";
+
 
 
 function Switches() {
-  AOS();
+  
   return (
     <div className=" flex flex-col mb-60 gap-10 justify-center text-white rounded-3xl">
       <div className="">

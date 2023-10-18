@@ -1,9 +1,9 @@
 import CircleBlur from "../CircleBlur";
 import {  motion } from "framer-motion";
-import AOS from '../../hooks/AOS'
+
 
 function ChromeLabel() {
-  AOS()
+  
   return (
     <div className="relative flex flex-col font-bold gap-[100px] items-center z-10 text-white  top-[300px]">
       <motion.p

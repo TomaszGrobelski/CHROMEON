@@ -1,10 +1,10 @@
 import Button from "../Button"
 import { AiOutlineDoubleRight } from "react-icons/ai";
-import AOS from "../../hooks/AOS";
+
 
 
 function Product({photo, title, description, price}) {
-  AOS()
+  
   const iconRight= <AiOutlineDoubleRight /> ;
 
   return (

@@ -1,9 +1,8 @@
-
 import BluetoothC from '../../images/BluetoothC.png'
-import AOS from "../../hooks/AOS";
+
 
 function Specification() {
-  AOS();
+
 
   return (
     <div className="flex justify-center font-league-gothic font-bold pt-40 mx-4 p-5 rounded-br-2xl rounded-bl-2xl">

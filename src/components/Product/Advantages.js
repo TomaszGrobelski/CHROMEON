@@ -1,10 +1,10 @@
 import React from "react";
 import CustomizedAccordions from "./CustomizedAccordions";
 import SpinningWheel from "./SpinningWheel";
-import AOS from "../../hooks/AOS";
+
 
 function Advantages() {
-  AOS()
+  
   return (
     <div>
       <div className="flex flex-col lg:flex-row lg:gap-6 text-white my-[100px]">
