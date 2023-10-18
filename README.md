@@ -1,4 +1,4 @@
-![HeroPage](./HeroPage.png)
+![HeroPage](./src/images/README/HeroPage.png)
 
 
 # CHROMEON - Online Store for Keyboards
