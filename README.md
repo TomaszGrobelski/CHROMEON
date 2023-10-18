@@ -1,17 +1,17 @@
 ![HeroPage](./HeroPage.png)
 
 
-# CHROMEON - Sklep internetowy z klawiaturami
+# CHROMEON - Online Store for Keyboards
 
-CHROMEON to sklep internetowy specjalizujący się w sprzedaży wysokiej jakości klawiatur do komputerów. Nasza misja polega na dostarczaniu produktów, które nie tylko poprawią wydajność, ale także poprawią doświadczenie użytkownika.
+CHROMEON is an online store specializing in the sale of high-quality computer keyboards. Our mission is to provide products that not only improve performance but also enhance the user experience.
 
-## O projekcie
+## About the Project
 
-CHROMEON jest platformą e-commerce, która oferuje szeroki wybór klawiatur o różnych typach przełączników i cechach. Nasze klawiatury są zaprojektowane tak, aby spełniać oczekiwania zarówno entuzjastów gamingu, jak i profesjonalistów pracujących zdalnie. Zapewniamy produkty wysokiej jakości, które są trwałe i funkcjonalne.
+CHROMEON is an e-commerce platform offering a wide selection of keyboards with various switch types and features. Our keyboards are designed to meet the expectations of both gaming enthusiasts and remote working professionals. We provide high-quality products that are durable and functional.
 
-## Technologie
+## Technologies
 
-Projekt został zrealizowany przy użyciu następujących technologii:
+The project has been implemented using the following technologies:
 
 - HTML5
 - CSS3
@@ -19,18 +19,18 @@ Projekt został zrealizowany przy użyciu następujących technologii:
 - React
 - Tailwind CSS
 
-## Instalacja
+## Installation
 
-Aby zainstalować i uruchomić ten projekt lokalnie, wykonaj następujące kroki:
+To install and run this project locally, follow these steps:
 
-1. Sklonuj repozytorium: `git clone https://github.com/TWOJ_USERNAME/CHROMEON.git`
-2. Przejdź do katalogu projektu: `cd CHROMEON`
-3. Zainstaluj zależności: `npm install`
-4. Uruchom aplikację: `npm start`
+1. Clone the repository: git clone https://github.com/YOUR_USERNAME/CHROMEON.git
+2. Navigate to the project directory: cd CHROMEON
+3. Install dependencies: npm install
+4. Run the application: npm start
 
-## Autorzy
+## Author
 
 - Tomasz Grobelski - [GitHub]([link_do_profilu](https://github.com/TomaszGrobelski))
 
 ## Demo
-[Demo strony BodyForgeGym](https://tomaszgrobelski.github.io/CHROMEON/)
+[The CHROMEON website demo](https://tomaszgrobelski.github.io/CHROMEON/)
